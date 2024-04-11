@@ -1,0 +1,114 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding-top: -10;
+    gap: 7rem;
+    margin: 0;
+    padding: 10px 5px;
+    text-decoration: none;
+    justify-content: center;
+    position: relative;
+    color:#37447E;
+    
+    font-size: 20px;
+    
+    
+}
+
+#contact{
+    color: white;
+    background-color:#111B47;
+    border-radius: 50px;
+    font-size: 50px;
+    align-items: end;
+    border-style:none ;
+    border-style:none; 
+    padding: 15px;
+    margin-right: 20px;
+
+   
+
+}
+
+#name{
+    color:#37447E;
+    font-size: 80px;
+    margin-left: 20px;
+    
+
+
+}
+
+body{
+
+    background-image: url(images/Background\ design.png);
+    
+
+
+}
+
+#description{
+
+    text-align: left;
+    text-align: left;
+    margin-right: 60px;
+    margin: 0 auto; /* This centers the content horizontally */
+    padding: 0 20px; /* Adds some padding to the left and right */
+    padding-right: 200px;
+    font-size: 25px;
+
+
+}
+
+.mainText{
+
+    margin-top: 100px;
+}
+#Headingtitle{
+    font-size: 75px;
+}
+.mainText {
+    margin-top: 100px; /* Adjust as needed */
+}
+
+.descriptionAndImage {
+    display: flex;
+    align-items: left;
+}
+
+#description {
+    flex: 1;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+#mainImage {
+    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+    width: 700px; /* Adjust the width as needed */
+    margin-bottom: 
+}
+#contact2{
+
+    color: white;
+    background-color:#111B47;
+    border-radius: 20px;
+    font-size: 50px;
+    align-items: end;
+    margin-top: 50px;
+    border-color: #000000;
+    border-style:none; 
+    padding: 15px;
+    margin-right: 20px;
+   
+}
+
+#contact2:hover{
+    cursor:pointer
+}
+#contact:hover{
+    cursor:pointer
+}
