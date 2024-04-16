@@ -89,7 +89,6 @@ body{
     max-width: 100%; /* Ensures the image doesn't exceed its container's width */
     height: auto; /* Maintains the image's aspect ratio */
     width: 700px; /* Adjust the width as needed */
-    margin-bottom: 
 }
 #contact2{
 
@@ -111,4 +110,10 @@ body{
 }
 #contact:hover{
     cursor:pointer
+}
+#home{
+    color:#37447E;
+}
+#about{
+    color:#37447E;
 }
