@@ -57,3 +57,60 @@ body{
     margin-top: 100px; /* Adjust as needed */
 
 }
+
+.Team{
+    display: flex;
+}
+.Collin{
+
+    max-width: 500px;
+}
+
+#Collinname{
+    text-align: center;
+}
+
+#CollinDes{
+    text-align: center;
+}
+
+#collinPic{
+
+    max-height: 300px;
+    margin-left: 100px;
+}
+.BillyJoel{
+    margin-left: px;
+    
+    max-width: 500px;
+}
+#BillyPic{
+    max-height: 300px;
+    margin-left: 100px;
+}
+#BillyDes{
+    text-align: center;
+
+}
+
+#BillyName{
+    text-align: center;
+}
+
+.SusyBob{
+    margin-left: 100px;
+    
+    max-width: 500px;
+}
+#SusyPic{
+    max-height: 300px;
+    margin-left: 75px;
+}
+
+#SusyDes{
+    text-align: center;
+}
+
+#SusyName{
+    text-align: center;
+}
