@@ -13,10 +13,11 @@
     justify-content: center;
     position: relative;
     color:#37447E;
-    
     font-size: 20px;
-    
-    
+}
+
+.topbar a {
+    text-decoration: none;
 }
 
 #contact{
@@ -39,16 +40,12 @@
     font-size: 80px;
     margin-left: 20px;
     
-
-
 }
 
 body{
 
     background-image: url(images/Background\ design.png);
-    
-
-
+    margin-top: 10px;
 }
 
 #description{
@@ -60,8 +57,6 @@ body{
     padding: 0 20px; /* Adds some padding to the left and right */
     padding-right: 200px;
     font-size: 25px;
-
-
 }
 
 .mainText{
@@ -113,7 +108,23 @@ body{
 }
 #home{
     color:#37447E;
+    text-decoration: none;
 }
 #about{
     color:#37447E;
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none; /* Ensure no underline on button */
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
