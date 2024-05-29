@@ -42,6 +42,7 @@
 body{
 
     background-image: url(images/Background\ design.png);
+    transition: all ease 3s;
 
 }
 

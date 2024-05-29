@@ -14,6 +14,7 @@
     position: relative;
     color:#37447E;
     font-size: 20px;
+    transition: all ease 3s;
 }
 
 .topbar a {
@@ -46,6 +47,7 @@ body{
 
     background-image: url(images/Background\ design.png);
     margin-top: 10px;
+    transition: all ease 3s;
 }
 
 #description{

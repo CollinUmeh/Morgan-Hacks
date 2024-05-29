@@ -46,6 +46,7 @@ body{
 
     background-image: url(images/Background\ design.png);
     margin-top: 10px;
+    transition: all ease 3s;
 }
 #Headingtitle{
     font-size: 75px;
