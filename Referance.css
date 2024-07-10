@@ -1,3 +1,12 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0
+}
+
+
+
 .topbar {
     display: flex;
     justify-content: space-between;
@@ -41,12 +50,29 @@
     margin-left: 20px;
     
 }
+#Menu{
+    font-size: 30px;
+    margin-bottom: 50px;
+    background-color: #2c386f;
+    padding: 20px;
+    text-decoration: none;
+}
 
+#menuNames{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 100px;
+    padding:20px
+
+
+}
 body{
 
     background-image: url(images/Background\ design.png);
     margin-top: 10px;
     transition: all ease 3s;
+    
 }
 #Headingtitle{
     font-size: 75px;
@@ -55,5 +81,66 @@ body{
 #heading{
     font-size: 50px;
     text-align: center;
+    color:#37447E;
+}
+
+.app{
+
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.sidebar{
+    flex:1 1 0;
+    max-width: 300px;
+    padding: 2rem 1rem;
+    background-color: #37447ef5;
+    border-radius: 5px;
+    
+}
+
+.sidebar h3{
+
+    color: rgb(254, 254, 254);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5em
+    
+}
+
+.sidebar .menu{
+
+    margin: 0 -1rem;
+
+
+}
+
+.sidebar .menu .menu-item {
+
+    display: block;
+    padding:1em;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s linear;
+
+
+}
+
+.sidebar .menu .menu-item:hover,
+.sidebar .menu .menu-item.is-active {
+
+    color: #3bba9c;
+    border-right: 5px solid ;
+
+}
+@media (max-width:1024px) {
+    .sidebar{
+        max-width:200px;
+    }
+
+}
+
+a:visited, a:link {
     color:#37447E;
 }

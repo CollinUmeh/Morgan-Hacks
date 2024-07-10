@@ -153,3 +153,7 @@ body{
 .topbar a {
     text-decoration: none;
 }
+
+a:visited, a:link {
+    color:#37447E;
+}

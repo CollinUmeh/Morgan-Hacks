@@ -1,3 +1,5 @@
+
+
 .topbar {
     display: flex;
     justify-content: space-between;
@@ -47,7 +49,6 @@ body{
 
     background-image: url(images/Background\ design.png);
     margin-top: 10px;
-    transition: all ease 3s;
 }
 
 #description{
@@ -59,18 +60,18 @@ body{
     padding: 0 20px; /* Adds some padding to the left and right */
     padding-right: 200px;
     font-size: 25px;
+    transition: all ease 3s;
 }
 
 .mainText{
 
-    margin-top: 100px;
+    margin-top: 65px;
+    transition: all ease 3s;
 }
 #Headingtitle{
     font-size: 75px;
 }
-.mainText {
-    margin-top: 100px; /* Adjust as needed */
-}
+
 
 .descriptionAndImage {
     display: flex;
@@ -129,4 +130,8 @@ body{
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+a:visited, a:link {
+    color:#37447E;
 }
