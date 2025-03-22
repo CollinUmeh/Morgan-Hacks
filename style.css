@@ -1,5 +1,8 @@
 
+*{
 
+    zoom:99% ;
+}
 .topbar {
     display: flex;
     justify-content: space-between;
@@ -25,7 +28,7 @@
 
 #contact{
     color: white;
-    background-color:#111B47;
+    background-color:#37447E;
     border-radius: 50px;
     font-size: 50px;
     align-items: end;
@@ -54,13 +57,13 @@ body{
 #description{
 
     text-align: left;
-    text-align: left;
     margin-right: 60px;
     margin: 0 auto; /* This centers the content horizontally */
     padding: 0 20px; /* Adds some padding to the left and right */
     padding-right: 200px;
     font-size: 25px;
     transition: all ease 3s;
+    line-height: 1.5;
 }
 
 .mainText{
@@ -91,7 +94,7 @@ body{
 #contact2{
 
     color: white;
-    background-color:#111B47;
+    background-color:#37447E;
     border-radius: 20px;
     font-size: 40px;
     align-items: end;
@@ -107,7 +110,8 @@ body{
     cursor:pointer
 }
 #contact:hover{
-    cursor:pointer
+    cursor:pointer;
+    background-color: #007BFF;
 }
 #home{
     color:#37447E;
@@ -117,6 +121,7 @@ body{
     color:#37447E;
     text-decoration: none;
 }
+
 
 .button {
     display: inline-block;
@@ -134,4 +139,24 @@ body{
 
 a:visited, a:link {
     color:#37447E;
+}
+
+
+
+.custom-button {
+    background-color: #37447E; /* Match the color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    transition: background 0.3s ease;
+    margin-top: 50px;
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Darker on hover */
 }

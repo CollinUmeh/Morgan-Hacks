@@ -1,8 +1,8 @@
 *{
     padding:0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0
+    margin: 0;
+    zoom:99% ;
 }
 
 
@@ -60,12 +60,19 @@
 
 #menuNames{
     font-size: 40px;
-    text-decoration: none;
     color: white;
     margin-bottom: 100px;
-    padding:20px
+    padding:20px;
+    text-decoration: none;
 
 
+}
+#Headingtitle2{
+    font-size: 75px;
+    color: #37447E;
+    text-align: center;
+    padding-top: 50px;
+    margin-right: 90px;
 }
 body{
 
@@ -88,6 +95,7 @@ body{
 
     display: flex;
     min-height: 100vh;
+    text-decoration: none;
 
 }
 
@@ -97,6 +105,7 @@ body{
     padding: 2rem 1rem;
     background-color: #37447ef5;
     border-radius: 5px;
+    text-decoration: none;
     
 }
 
@@ -105,14 +114,13 @@ body{
     color: rgb(254, 254, 254);
     font-size: 0.75rem;
     text-transform: uppercase;
-    margin-bottom: 0.5em
+    margin-bottom: 0.5em;
     
 }
 
 .sidebar .menu{
 
     margin: 0 -1rem;
-
 
 }
 
@@ -142,5 +150,114 @@ body{
 }
 
 a:visited, a:link {
-    color:#37447E;
+    color:#37447ef5;
+    text-decoration: none;
 }
+
+
+.sidebar a:visited, a:link {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap; /* Allows the cards to wrap to the next line if necessary */
+    justify-content: center; /* Center the cards in the container */
+    gap: 20px; /* Adds space between the cards */
+    padding: 20px; /* Adds padding inside the container */
+
+}
+
+.card-container {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, and base width */
+    margin: 30px; /* Space around each card */
+    max-width: 300px; /* Ensure cards don’t get too wide */
+}
+
+.card {
+    width: 100%; /* Make the card take the full width of its container */
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+    height: 200px;
+    font-family:'Archivo' ;
+}
+
+.card img {
+    width: 100%; /* Makes the image take full width of the card */
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures images cover the area without stretching */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.card-content {
+    padding: 16px;
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    font-size: 15px;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+
+
+
+
+
+#cards2 {
+    display: flex;
+    flex-wrap: wrap; /* Allows the cards to wrap to the next line if necessary */
+    justify-content: center; /* Center the cards in the container */
+    gap: 20px; /* Adds space between the cards */
+    padding: 20px; /* Adds padding inside the container */
+
+}
+
+.card-container2 {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, and base width */
+    margin: 10px; /* Space around each card */
+    max-width: 300px; /* Ensure cards don’t get too wide */
+}
+
+.card2 {
+    width: 100%; /* Make the card take the full width of its container */
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+    height: 200px;
+    font-family:'Archivo' ;
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain; /* Ensures the image covers the area without distorting its aspect ratio */
+}
+
+.card-content2 {
+    padding: 16px;
+    text-align: center;
+}
+
+.card-content2 h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.card-content2 p {
+    font-size: 15px;
+    line-height: 1.3em;
+    text-align: center;
+}
+/*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/

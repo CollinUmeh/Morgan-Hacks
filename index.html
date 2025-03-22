@@ -22,11 +22,12 @@
                 <div id="together">
                     <p id="description">Simply snap a photo of your skin concern, and our advanced artificial intelligence will analyze it to provide you with an accurate diagnosis of your skin condition within seconds. Whether it's a pesky rash, an irritating allergy, or a mysterious spot, 
                         SkinSense is here to help you understand what's going on with your skin.</p>
-                        <button type="button" id="contact2">
-                            Upload Picture
-                        </button>
+                        <form action="/action_page.php" id="">
+                            <input type="file" id="fileUpload" name="filename" hidden>
+                            <label for="fileUpload" class="custom-button">Upload Photo</label>
+                        </form>
                         <a href="Referance.html">
-                            <button type="button" id="contact2">
+                            <button type="button" class="custom-button">
                                 Referance Photos
                             </button>
                         </a>
@@ -34,7 +35,6 @@
    
 
                 </div>
-        
                 <img src="images/Main image.png" alt="rashes" id="mainImage">
             </div>
         </div>

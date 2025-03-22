@@ -58,15 +58,26 @@ body{
 .mainText {
     
     margin-top: 100px; /* Adjust as needed */
+    
 
 }
 
 .Team{
     display: flex;
+    align-items: center;
+    
 }
-.Collin{
+.Collin {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically if needed */
+    flex-direction: column; /* Ensures proper alignment for image & text */
+    margin-left: 100px;
+}
 
-    max-width: 500px;
+#collinPic {
+    max-height: 300px;
+    display: block; /* Removes extra space below inline images */
 }
 
 #Collinname{
@@ -77,48 +88,7 @@ body{
     text-align: center;
 }
 
-#collinPic{
-
-    max-height: 300px;
-    margin-left: 100px;
-}
-.BillyJoel{
-    margin-left: px;
-    
-    max-width: 500px;
-}
-#BillyPic{
-    max-height: 300px;
-    margin-left: 100px;
-}
-#BillyDes{
-    text-align: center;
-
-}
-
-#BillyName{
-    text-align: center;
-}
-
-.SusyBob{
-    margin-left: 100px;
-    
-    max-width: 500px;
-}
-#SusyPic{
-    max-height: 300px;
-    margin-left: 75px;
-}
-
-#SusyDes{
-    text-align: center;
-}
-
-#SusyName{
-    text-align: center;
-}
-
-.button {
+tton {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
