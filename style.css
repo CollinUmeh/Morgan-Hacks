@@ -1,0 +1,162 @@
+
+*{
+
+    zoom:99% ;
+}
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding-top: -10;
+    gap: 7rem;
+    margin: 0;
+    padding: 10px 5px;
+    text-decoration: none;
+    justify-content: center;
+    position: relative;
+    color:#37447E;
+    font-size: 20px;
+    transition: all ease 3s;
+}
+
+.topbar a {
+    text-decoration: none;
+}
+
+#contact{
+    color: white;
+    background-color:#37447E;
+    border-radius: 50px;
+    font-size: 50px;
+    align-items: end;
+    border-style:none ;
+    border-style:none; 
+    padding: 15px;
+    margin-right: 20px;
+
+   
+
+}
+
+#name{
+    color:#37447E;
+    font-size: 80px;
+    margin-left: 20px;
+    
+}
+
+body{
+
+    background-image: url(images/Background\ design.png);
+    margin-top: 10px;
+}
+
+#description{
+
+    text-align: left;
+    margin-right: 60px;
+    margin: 0 auto; /* This centers the content horizontally */
+    padding: 0 20px; /* Adds some padding to the left and right */
+    padding-right: 200px;
+    font-size: 25px;
+    transition: all ease 3s;
+    line-height: 1.5;
+}
+
+.mainText{
+
+    margin-top: 65px;
+    transition: all ease 3s;
+}
+#Headingtitle{
+    font-size: 75px;
+}
+
+
+.descriptionAndImage {
+    display: flex;
+    align-items: left;
+}
+
+#description {
+    flex: 1;
+    margin-right: 20px; /* Adjust as needed */
+}
+
+#mainImage {
+    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+    width: 700px; /* Adjust the width as needed */
+}
+#contact2{
+
+    color: white;
+    background-color:#37447E;
+    border-radius: 20px;
+    font-size: 40px;
+    align-items: end;
+    margin-top: 50px;
+    border-color: #000000;
+    border-style:none; 
+    padding: 15px;
+    margin-right: 20px;
+   
+}
+
+#contact2:hover{
+    cursor:pointer
+}
+#contact:hover{
+    cursor:pointer;
+    background-color: #007BFF;
+}
+#home{
+    color:#37447E;
+    text-decoration: none;
+}
+#about{
+    color:#37447E;
+    text-decoration: none;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none; /* Ensure no underline on button */
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a:visited, a:link {
+    color:#37447E;
+}
+
+
+
+.custom-button {
+    background-color: #37447E; /* Match the color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    transition: background 0.3s ease;
+    margin-top: 50px;
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
