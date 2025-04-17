@@ -1,8 +1,13 @@
 
 *{
 
-    zoom:99% ;
+    zoom:98% ;
+    font-family: "Helvetica", "Arial", sans-serif;
+    
+    
 }
+
+
 .topbar {
     display: flex;
     justify-content: space-between;
@@ -20,6 +25,7 @@
     color:#37447E;
     font-size: 20px;
     transition: all ease 3s;
+    
 }
 
 .topbar a {

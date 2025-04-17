@@ -1,3 +1,13 @@
+
+*{
+
+    zoom:98% ;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+
+
+
 .topbar {
     display: flex;
     justify-content: space-between;

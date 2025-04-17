@@ -1,23 +1,14 @@
-.topbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    display: flex;
-    text-align: center;
-    padding-top: -10;
-    gap: 7rem;
-    margin: 0;
-    padding: 10px 5px;
-    text-decoration: none;
-    justify-content: center;
-    position: relative;
-    color:#37447E;
-    
-    font-size: 20px;
-    
-    
+
+*{
+
+    zoom:98% ;
+    font-family: "Helvetica", "Arial", sans-serif;
 }
+
+
+
+
+
 
 #contact{
     color: white;
@@ -63,7 +54,6 @@ body{
 }
 
 .Team{
-    display: flex;
     align-items: center;
     
 }
@@ -72,12 +62,13 @@ body{
     justify-content: center; /* Centers the image horizontally */
     align-items: center; /* Centers the image vertically if needed */
     flex-direction: column; /* Ensures proper alignment for image & text */
-    margin-left: 100px;
 }
 
 #collinPic {
-    max-height: 300px;
-    display: block; /* Removes extra space below inline images */
+    width: 300px; 
+    height:500px;
+    border-radius: 3%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
 }
 
 #Collinname{
@@ -85,22 +76,13 @@ body{
 }
 
 #CollinDes{
-    text-align: center;
+    width: 700px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 23px;
 }
 
-tton {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none; /* Ensure no underline on button */
-    color: #fff;
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+
 
 .topbar {
     display: flex;
