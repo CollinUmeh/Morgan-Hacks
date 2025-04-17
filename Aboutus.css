@@ -54,13 +54,14 @@ body{
 }
 
 .Team{
-    align-items: center;
+    align-items: left;
+    display: flex;
     
 }
 .Collin {
     display: flex;
-    justify-content: center; /* Centers the image horizontally */
-    align-items: center; /* Centers the image vertically if needed */
+    justify-content: left; /* Centers the image horizontally */
+    align-items: left; /* Centers the image vertically if needed */
     flex-direction: column; /* Ensures proper alignment for image & text */
 }
 
@@ -75,11 +76,22 @@ body{
     text-align: center;
 }
 
-#CollinDes{
-    width: 700px;
+.Team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 40px;
+    flex-wrap: wrap; /* allows responsiveness */
+}
+
+#CollinDes {
+    max-width: 600px;
+    max-height: 600px;
+    font-size: 26px;
     padding: 10px;
-    border: 1px solid #ccc;
-    font-size: 23px;
+    text-align: left;
+    color: #000000;
 }
 
 
