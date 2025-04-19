@@ -1,7 +1,7 @@
 
 *{
 
-    zoom:98% ;
+    zoom:97% ;
     font-family: "Helvetica", "Arial", sans-serif;
 }
 
@@ -66,10 +66,12 @@ body{
 }
 
 #collinPic {
-    width: 300px; 
-    height:500px;
+    width: 330px; 
+    height:570px;
     border-radius: 3%;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.335);
+    margin-top:10px;
+
 }
 
 #Collinname{
@@ -86,12 +88,13 @@ body{
 }
 
 #CollinDes {
-    max-width: 600px;
+    max-width: 650px;
     max-height: 600px;
     font-size: 26px;
     padding: 10px;
     text-align: left;
     color: #000000;
+    
 }
 
 
